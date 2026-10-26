@@ -1,0 +1,16 @@
+{
+  "name": "shiguangji",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Pick Up Light — a hand-made static blog",
+  "scripts": {
+    "build": "node src/build.mjs",
+    "dev": "node src/dev.mjs",
+    "preview": "node src/serve.mjs"
+  },
+  "dependencies": {
+    "highlight.js": "^11.12.0",
+    "marked": "^18.1.2"
+  }
+}

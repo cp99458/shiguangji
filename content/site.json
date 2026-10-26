@@ -1,0 +1,20 @@
+{
+  "title": "拾光集",
+  "mark": "拾",
+  "subtitle": "写代码，读书，记录一点日常的光。",
+  "description": "拾光集 — 一个关于工程、阅读与日常的中文博客，记录写作、建站与生活的碎片。",
+  "author": "拾光",
+  "github": "https://github.com/cp99458",
+  "url": "https://shiguangji.pages.dev",
+  "aboutBlurb": "这里没有算法推荐，也没有评论区。只有一些认真写下的句子：关于怎么写更少但更好的代码，关于读过又重读的书，关于南方的雨和城市里慢慢变旧的东西。",
+  "now": [
+    { "label": "在读", "text": "《人月神话》第四遍" },
+    { "label": "在写", "text": "这个博客的构建脚本" },
+    { "label": "在等", "text": "深圳的雨停" }
+  ],
+  "nav": [
+    { "label": "归档", "href": "/archive/" },
+    { "label": "标签", "href": "/tags/" },
+    { "label": "关于", "href": "/about/" }
+  ]
+}

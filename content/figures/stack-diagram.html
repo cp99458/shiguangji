@@ -1,0 +1,26 @@
+<figure class="diagram">
+  <svg viewBox="0 0 560 160" role="img" aria-label="令牌、组件、页面三者单向依赖的示意图">
+    <defs>
+      <marker id="diagram-arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto">
+        <path d="M0 0 L10 5 L0 10 z" fill="currentColor" />
+      </marker>
+    </defs>
+    <g>
+      <rect x="12" y="42" width="150" height="66" rx="4" />
+      <text class="d-label" x="87" y="70">tokens</text>
+      <text class="d-strong" x="87" y="93">颜色 · 间距 · 字体</text>
+
+      <rect x="205" y="42" width="150" height="66" rx="4" />
+      <text class="d-label" x="280" y="70">components</text>
+      <text class="d-strong" x="280" y="93">按钮 · 卡片 · 列表</text>
+
+      <rect x="398" y="42" width="150" height="66" rx="4" />
+      <text class="d-label" x="473" y="70">pages</text>
+      <text class="d-strong" x="473" y="93">首页 · 文章 · 归档</text>
+
+      <line class="d-arrow" x1="168" y1="75" x2="197" y2="75" marker-end="url(#diagram-arrow)" />
+      <line class="d-arrow" x1="361" y1="75" x2="390" y2="75" marker-end="url(#diagram-arrow)" />
+    </g>
+  </svg>
+  <figcaption>依赖是单向的：页面用组件，组件用令牌，令牌不知道任何人的存在。</figcaption>
+</figure>

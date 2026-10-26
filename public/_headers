@@ -1,0 +1,14 @@
+# Hashed assets never change — cache them for a year.
+/assets/*
+  Cache-Control: public, max-age=31536000, immutable
+
+# Short-lived cache for the search index so new posts show up quickly.
+/search.json
+  Cache-Control: public, max-age=300
+
+/*
+  X-Content-Type-Options: nosniff
+  X-Frame-Options: SAMEORIGIN
+  Referrer-Policy: strict-origin-when-cross-origin
+  Permissions-Policy: geolocation=(), microphone=(), camera=()
+  Cross-Origin-Opener-Policy: same-origin
